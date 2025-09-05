@@ -1,10 +1,15 @@
-// Reverse a String
+/**
+ * function that takes a string and returns it reversed
+ * Do not use the built-in .reverse() method.
+ *
+ * Constraints:
+ *    Input string length ≤ 1000
+ *    Must use iteration or recursion
+ *
+ * @{params} - str
+ */
 
 function reverseString(str) {
-    // TODO:
-    // string and returns it reversed. no built-in .reverse() method
-    // Input string length ≤ 1000
-    // Must use iteration or recursion
     let arrStr = [];
     let strlen = str.length;
 
