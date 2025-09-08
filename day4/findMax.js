@@ -1,12 +1,23 @@
 /**
- * Problem: Return maximum number in an array of integers.
- * Do not use Math.max 
- * Array length >= 1
- * Numbers can be negative;
+ * Problem: Find Maximum in an Array
+ * Given an array of integers, return the maximum element.
+ * - Do not use Math.max
+ * - Array length >= 1
+ * - Numbers can be negative
+ *
+ * Constraints:
+ * - 1 <= arr.length <= 10^5
+ * - -10^9 <= arr[i] <= 10^9
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ *
+ * @param {number[]} arr
+ * @return {number}
  */
 
 function findMax(arr) {
-    let max = 0;
+    let max = arr[0];
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] > max) {
             max = arr[i];

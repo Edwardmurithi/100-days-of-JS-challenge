@@ -1,8 +1,21 @@
 /**
- * Problem: Print numbers from 1 to n. 
- * For multiples of 3 print "Fizz" 
- * For multiples of 5 print "Buzz" 
- * For multiples of both, print "FizzBuzz"
+ * Problem: FizzBuzz
+ * Print numbers from 1 to n.
+ * - For multiples of 3, print "Fizz"
+ * - For multiples of 5, print "Buzz"
+ * - For multiples of both, print "FizzBuzz"
+ *
+ * Constraints:
+ * - 1 <= n <= 10^4
+ * - Output should be an array of strings/numbers
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(n) (due to result array)
+ */
+
+/**
+ * @param {number} n
+ * @return {Array<string|number>}
  */
 
 function fizzBuzz(n) {
